@@ -12,6 +12,7 @@ setup(
     author='Tomoya Kose',
     author_email='tomoya@mitsuse.jp',
     install_requires=[
+        'sphinx>=1.7.4<2.0.0',
     ],
     license='MIT',
     classifiers=[
@@ -24,5 +25,8 @@ setup(
         'tests',
     ]),
     entry_points={
+        'sphinx.builders': [
+            'paragraph-extractor = sphinx_paragraph_extractor',
+        ],
     },
 )
