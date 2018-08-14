@@ -4,7 +4,7 @@ import re
 import sphinx
 from docutils import nodes
 
-_VERSION = '0.1.0'
+_VERSION = '1.0.0'
 
 _PATTERN_SPACES = re.compile('[\s]+')
 
