@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='sphinx-paragraph-extractor',
-    version='0.1.0',
+    version='1.0.0',
     description='',
     url='https://github.com/mitsuse/sphinx-paragraph-extractor',
     author='Tomoya Kose',
