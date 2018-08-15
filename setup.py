@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='sphinx-paragraph-extractor',
-    version='1.0.0',
+    version='1.0.1',
     description='',
     url='https://github.com/mitsuse/sphinx-paragraph-extractor',
     author='Tomoya Kose',
@@ -16,9 +16,9 @@ setup(
     ],
     license='MIT',
     classifiers=[
-        'Development Status :: 1 - Planning',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
     keywords=[],
     packages=find_packages(exclude=[
