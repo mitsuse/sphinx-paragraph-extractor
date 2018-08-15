@@ -35,7 +35,7 @@ class Builder(sphinx.builders.Builder):
         name_output = self.get_target_uri(docname)
         path_dest = Path(self.outdir)
         path_output = Path(self.outdir).joinpath(name_output)
-        path_output.parent.mkdir(exist_ok=True)
+        path_output.parent.mkdir(parents=True, exist_ok=True)
 
         with path_output.open('w') as f:
             visitor = DocumentVisitor(doctree.document, f)
