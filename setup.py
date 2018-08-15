@@ -6,8 +6,8 @@ from setuptools import setup
 
 setup(
     name='sphinx-paragraph-extractor',
-    version='1.0.1',
-    description='',
+    version='1.0.2',
+    description='A builder for Sphinx to extract paragraphs from docs.',
     url='https://github.com/mitsuse/sphinx-paragraph-extractor',
     author='Tomoya Kose',
     author_email='tomoya@mitsuse.jp',
