@@ -12,7 +12,7 @@ setup(
     author='Tomoya Kose',
     author_email='tomoya@mitsuse.jp',
     install_requires=[
-        'sphinx>=1.7.4<2.0.0',
+        'sphinx>=2.0.1<3.0.0',
     ],
     license='MIT',
     classifiers=[
